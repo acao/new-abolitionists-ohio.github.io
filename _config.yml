@@ -1,0 +1,53 @@
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
+
+name: CLEDemandsjustice.org
+description: '#CLEDemands Justice'
+
+
+media:
+  contact:
+    name: New Abolitionists Association
+    email: jworthy@childrensdefense.org
+
+memorial:
+  headline: 'In 10 days, two of our people were killed by police'
+  lead: ''
+
+tanisha:
+  name: 'Tanisha Anderson'
+  years: '1977 - 2014'
+  image: tanisha.jpg
+  story: ''
+
+tamir:
+  name: 'Tamir Rice'
+  years: '2001 - 2014'
+  image: 'tamir.jpg'
+  story: ''
+
+# Grunt handles images and assets.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+
+include: ['.htaccess']
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+permalink: pretty
+paginate: 0
+paginate_path: 'page:num'
+
+# Markdown library
+markdown: redcarpet
+#   extensions: ['fenced_code_blocks', 'smart']
+
+pygments: false
+
+collections:
+  demands:
+    output: false
