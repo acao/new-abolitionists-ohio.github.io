@@ -177,4 +177,4 @@ $('.navbar-collapse ul li a').click(function() {
 //         map: map,
 //         icon: image
 //     });
-}
+// }
