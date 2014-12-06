@@ -1,9 +1,8 @@
  <!-- Custom CSS -->
 
-
-    <!-- build:css css/grayscale.css -->
-    <link href="css/grayscale.css" rel="stylesheet" type="text/css">
-    <!-- endbuild -->
+    <!-- build:css<% if (cssPre) { %>({app,.tmp})<% } else { %>(app)<% } %> /<%= cssDir %>/grayscale.css --><% if (h5bpCss) { %>
+    <link rel="stylesheet" href="/css/grayscale.css">
+    <!-- endbuild --><% if (h5bpJs) { %>
 
     <!-- Custom Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">

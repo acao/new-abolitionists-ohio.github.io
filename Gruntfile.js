@@ -134,8 +134,8 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.app %>/less',
-          src: '**/*.less',
-          dest: '<%= yeoman.app %>/css',
+          src: '**/grayscale.less',
+          dest: '<%= yeoman.dist %>/css',
           ext: '.css'
         }]
       },
@@ -322,9 +322,9 @@ module.exports = function (grunt) {
     // Jekyll cleans files from the target directory, so must run first
     'jekyll:dist',
     'concurrent:dist',
+    'less',
     'useminPrepare',
     'concat',
-    'less',
     // 'cssmin',
     'uglify',
     'imagemin',
