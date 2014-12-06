@@ -22,7 +22,7 @@ module.exports = function (grunt) {
     },
     watch: {
       less: {
-        files: ['<% yeoman.app %>/_less/**/*.less'],
+        files: ['<% yeoman.app %>/less/**/*.less'],
         tasks: ['less','autoprefixer:server']
       },
       autoprefixer: {
@@ -42,7 +42,7 @@ module.exports = function (grunt) {
         },
         files: [
           '.jekyll/**/*.html',
-          '{.tmp,<%= yeoman.app %>}/css/**/*.css',
+          '.tmp/css/**/*.css',
           '{.tmp,<%= yeoman.app %>}/<%= js %>/**/*.js',
           '<%= yeoman.app %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}'
         ]
