@@ -171,7 +171,7 @@ module.exports = function (grunt) {
       }
     },
     // Usemin adds files to concat
-    concat: {},
+    // concat: {},
     // Usemin adds files to uglify
     uglify: {},
     // Usemin adds files to cssmin
@@ -247,7 +247,7 @@ module.exports = function (grunt) {
       dist: {
         options: {
           remote: '../',
-          branch: 'gh-pages',
+          branch: 'master',
           commit: true,
           push: true
         }
