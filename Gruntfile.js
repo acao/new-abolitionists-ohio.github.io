@@ -245,8 +245,8 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: 'git@github.com:new-abolitionists-ohio/website.git',
-          branch: 'gh-pages',
+          remote: 'git@github.com/new-abolitionists-ohio/new-abolitionists-ohio.github.io',
+          branch: 'master',
           commit: true,
           push: true
         }
