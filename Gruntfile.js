@@ -43,6 +43,7 @@ module.exports = function (grunt) {
         files: [
           '.jekyll/**/*.html',
           '.tmp/css/**/*.css',
+          'app/_less/**/*.less',
           '{.tmp,<%= yeoman.app %>}/<%= js %>/**/*.js',
           '<%= yeoman.app %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}'
         ]
@@ -136,6 +137,15 @@ module.exports = function (grunt) {
         //   imgPath: '"http://mycdn.com/path/to/images"',
         //   bgColor: 'red'
         // }
+      },
+      server: {
+        files: [{
+          expand: true,
+          cwd: '<%= yeoman.app %>/_less',
+          src: '**/grayscale.less',
+          dest: '<%= yeoman.app %>/css/',
+          ext: '.css'
+        }]
       },
       dist: {
         files: [{
@@ -315,7 +325,7 @@ module.exports = function (grunt) {
     },
     concurrent: {
       server: [
-        'less:dist',
+        'less:server',
         'copy:stageCss',
         'jekyll:server'
       ],

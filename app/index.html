@@ -55,13 +55,13 @@ title: "#CLE Demands Justice"
       </div>
     </section>
     <section id="demands-list" class="content-section text-center">
-        <div class="row">
+        <div class="container">
             <div class="col-lg-8 col-lg-offset-2">
               <h2>Our Demands</h2>
                <div class="demands">
                 {% for demand in site.demands %}
-                  <h3>{{ demand.title }}</h3>
-                  <div>{{ demand.content }}</div>
+                  <h3 class="subsection-header">{{ demand.title }}</h3>
+                  {{ demand.content }}
                 {% endfor %}
               </div>
             </div>
@@ -73,6 +73,15 @@ title: "#CLE Demands Justice"
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
             {% include connect.html %}
+            </div>
+        </div>
+    </section>
+
+        <!-- Contact Section -->
+    <section id="standup" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+            {% include mailchimp.html %}
             </div>
         </div>
     </section>
