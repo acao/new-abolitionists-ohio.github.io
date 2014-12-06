@@ -129,6 +129,9 @@ module.exports = function (grunt) {
       options: {
         paths: ["app/css"],
         cleancss: true,
+        modifyVars: {
+          imgPath: '"/img"',
+        }
         // modifyVars: {
         //   imgPath: '"http://mycdn.com/path/to/images"',
         //   bgColor: 'red'
@@ -139,7 +142,7 @@ module.exports = function (grunt) {
           expand: true,
           cwd: '<%= yeoman.app %>/less',
           src: '**/grayscale.less',
-          dest: '<%= yeoman.dist %>/css',
+          dest: '.tmp/css',
           ext: '.css'
         }]
       },
