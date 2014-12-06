@@ -198,7 +198,7 @@ module.exports = function (grunt) {
       }
     },
     // Usemin adds files to concat
-    // concat: {},
+    concat: {},
     // Usemin adds files to uglify
     uglify: {},
     // Usemin adds files to cssmin
@@ -315,9 +315,12 @@ module.exports = function (grunt) {
     },
     concurrent: {
       server: [
+        'less:server',
+        'copy:stageCss',
         'jekyll:server'
       ],
       dist: [
+        'less:dist'
         'copy:dist'
       ]
     }
@@ -371,7 +374,7 @@ module.exports = function (grunt) {
     'svgmin',
     'filerev',
     'usemin',
-    // 'htmlmin'
+    'htmlmin'
     ]);
 
   grunt.registerTask('deploy', [
