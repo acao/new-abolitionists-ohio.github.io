@@ -142,7 +142,7 @@ module.exports = function (grunt) {
           expand: true,
           cwd: '<%= yeoman.app %>/less',
           src: '**/grayscale.less',
-          dest: '.tmp/css',
+          dest: '.tmp/css/',
           ext: '.css'
         }]
       },
@@ -332,6 +332,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'concurrent:server',
+      'autoprefixer:server',
       'connect:livereload',
       'watch'
     ]);
@@ -364,6 +365,7 @@ module.exports = function (grunt) {
     'less',
     'useminPrepare',
     'concat',
+    'autoprefixer:dist',
     // 'cssmin',
     'uglify',
     'imagemin',
