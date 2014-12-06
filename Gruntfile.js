@@ -142,7 +142,7 @@ module.exports = function (grunt) {
           expand: true,
           cwd: '<%= yeoman.app %>/_less',
           src: '**/grayscale.less',
-          dest: '.tmp/css/',
+          dest: '<%= yeoman.dist %>/css/',
           ext: '.css'
         }]
       },
