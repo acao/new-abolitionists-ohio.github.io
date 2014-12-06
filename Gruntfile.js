@@ -315,7 +315,7 @@ module.exports = function (grunt) {
     'clean:server',
     'jekyll:check',
     // 'jshint:all',
-    'csslint:check'
+    // 'csslint:check'
   ]);
 
   grunt.registerTask('build', [
