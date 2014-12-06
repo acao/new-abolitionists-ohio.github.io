@@ -320,7 +320,7 @@ module.exports = function (grunt) {
         'jekyll:server'
       ],
       dist: [
-        'less:dist'
+        'less:dist',
         'copy:dist'
       ]
     }
