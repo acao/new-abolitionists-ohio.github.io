@@ -23,7 +23,11 @@ module.exports = function (grunt) {
     watch: {
       less: {
         files: ['<% yeoman.app %>/less/**/*.less'],
-        tasks: ['less']
+        tasks: ['less','autoprefixer:server']
+      },
+      autoprefixer: {
+        files: ['<%= yeoman.app %>/css/**/*.css'],
+        tasks: ['copy:stageCss', 'autoprefixer:server']
       },
       jekyll: {
         files: [
@@ -140,6 +144,27 @@ module.exports = function (grunt) {
         }]
       },
     },
+    autoprefixer: {
+      options: {
+        browsers: ['last 2 versions']
+      },
+      dist: {
+        files: [{
+          expand: true,
+          cwd: '<%= yeoman.dist %>/css',
+          src: '**/*.css',
+          dest: '<%= yeoman.dist %>/css'
+        }]
+      },
+      server: {
+        files: [{
+          expand: true,
+          cwd: '.tmp/css',
+          src: '**/*.css',
+          dest: '.tmp/css'
+        }]
+      }
+    },
     useminPrepare: {
       options: {
         dest: '<%= yeoman.dist %>'
@@ -224,6 +249,16 @@ module.exports = function (grunt) {
             //'apple-touch*.png'
           ],
           dest: '<%= yeoman.dist %>'
+        }]
+      }
+      // Copy CSS into .tmp directory for Autoprefixer processing
+      stageCss: {
+        files: [{
+          expand: true,
+          dot: true,
+          cwd: '<%= yeoman.app %>/css',
+          src: '**/*.css',
+          dest: '.tmp/css'
         }]
       }
     },
