@@ -4,4 +4,4 @@ title: Immediate Action on Indictments
 published: true
 ---
 
-**IMMEDIATE:** WE DEMAND THE IMMEDIATE DISMISSAL OF MICHAEL MCGRATH AND FOR THE INDICTMENT OF TIMOTHY LOEHMANN and FRANK GARMBACK, BOTH OFFICERS INVOLVED IN THE SLAYING OF TAMIR RICE. WE ALSO CALL FOR THE INDICTMENT OF OFFICERS RESPONSIBLE FOR THE DEATH OF TANISHA ANDERSON. WHILE THESE OFFICERS HAVE ESCAPED PUBLIC SCRUITINY,THEY MUST BE HELD ACCOUNTABLE.
+**IMMEDIATE:** We demand the immediate dismissal of Michael McGrath and for the indictment of Timothy Loehmann and Frank Garmback, both officers involved in the slaying of Tamir Rice. We also call for the indictment of officers responsible for the death of Tanisha Anderson. While these officers have escaped public scruitiny,they must be held accountable.
