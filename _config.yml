@@ -60,7 +60,8 @@ prose:
   ignore:
     - index.md
     - _config.yml
-    - /_layouts
+    - /app/_layouts
+    - /app/_plugins
   metadata:
     _posts:
       - name: "layout"
