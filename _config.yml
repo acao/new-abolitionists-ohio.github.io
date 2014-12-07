@@ -28,6 +28,11 @@ tamir:
   image: 'tamir.jpg'
   story: ''
 
+newsletter:
+  headline: 'Sign up for Updates'
+  interest: "I'm interested in:"
+  submit: 'Get updates'
+
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
