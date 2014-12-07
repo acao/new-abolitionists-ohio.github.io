@@ -2,6 +2,7 @@
 @import "../_bower_components/bootstrap/less/bootstrap.less";
 @import "variables.less";
 @import "mixins.less";
+@import "youtube.less";
 
 body {
     width: 100%;
@@ -94,8 +95,7 @@ a {
                 -moz-transition: background .3s ease-in-out;
                 transition: background .3s ease-in-out;
                 &:hover,
-                &:focus,
-                &.active {
+                &:focus {
                     outline: none;
                     background-color: fade(@light, 30%);
                 }
