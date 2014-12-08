@@ -23,7 +23,7 @@ module.exports = function (grunt) {
     watch: {
       less: {
         files: ['<% yeoman.app %>/_less/**/*.less'],
-        tasks: ['less:server','autoprefixer:server']
+        tasks: ['less:dist','autoprefixer:server']
       },
       autoprefixer: {
         files: ['<%= yeoman.app %>/css/**/*.css'],
