@@ -1,0 +1,20 @@
+language: ruby
+
+rvm:
+  - 2.1.2
+
+branches:
+  only:
+    - build
+
+before_script:
+  # Anything required by your build process...
+  - npm install -g grunt-cli
+  - npm install -g bower
+  - npm install
+  - bower install -f
+  - grunt deploy
+  #
+  # script:
+  # # Place your regular build/deploy chain here...
+  # - "bundle exec middleman build && bundle exec middleman s3_sync"
