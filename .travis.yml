@@ -13,8 +13,6 @@ before_script:
   - npm install -g bower
   - npm install
   - bower install -f
+script:
   - grunt deploy --force
-  #
-  # script:
-  # # Place your regular build/deploy chain here...
   # - "bundle exec middleman build && bundle exec middleman s3_sync"
