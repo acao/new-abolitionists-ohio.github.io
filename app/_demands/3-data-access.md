@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "3: Disciplinary Independent Review Board"
+title: "4: Disciplinary Independent Review Board"
 published: true
 ---
 

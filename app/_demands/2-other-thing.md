@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "2: Halt the Police Hiring Campaign"
+title: "3: Halt the Police Hiring Campaign"
 published: true
 ---
 
