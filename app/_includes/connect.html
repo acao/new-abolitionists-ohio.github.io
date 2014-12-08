@@ -2,39 +2,40 @@
     <h2>Get Connected</h2>
     </p>
     <h3>New Abolitionists Association - Ohio</h3>
-      <ul class="list-inline banner-social-buttons">
-      <li>
-          <a href="https://www.facebook.com/NewAbolitionistAssociationOhio" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-      </li>
-      <li>
-          <a href="http://www.cdfohio.org/programs-campaigns/the-new-abolitionist/" class="btn btn-default btn-lg"><i class="fa fa-globe fa-fw"></i> <span class="network-name">Website</span></a>
-      </li>
-  </ul>
+    <ul class="list-inline banner-social-buttons">
+        <li>
+            <a href="https://www.facebook.com/NewAbolitionistAssociationOhio" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+        </li>
+        <li>
+            <a href="http://www.cdfohio.org/programs-campaigns/the-new-abolitionist/" class="btn btn-default btn-lg"><i class="fa fa-globe fa-fw"></i> <span class="network-name">Website</span></a>
+        </li>
+    </ul>
     <div class="row social-media">
-      <div class="col-md-5 col-md-offset-1">
-        <div class="fb-like-box" data-href="https://www.facebook.com/NewAbolitionistAssociationOhio" data-height="600" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>
+        <div class="col-md-5 col-md-offset-1">
+            <div class="fb-like-box" data-href="https://www.facebook.com/NewAbolitionistAssociationOhio" data-height="600" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>
+        </div>
+        <div class="col-md-5 col-md-offset-1">
+            <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/CLEDemands" data-widget-id="542042462660083712">#CLEDemands Tweets</a>
+        </div>
     </div>
-    <div class="col-md-5 col-md-offset-1">
-      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/CLEDemands" data-widget-id="542042462660083712">#CLEDemands Tweets</a>
-    </div>
-  </div>
 </div>
 </div>
-<div class="col-md-12 ">
-      <h2>Press inquiries:</h2>
-    <div class="col-md-8 col-md-offset-4 text-left">
-      {% for contact in site.data.contacts %}
-        <div class="col-md-6">
-          <h4 class="list-group-item-heading">{{ contact.name }}</h4>
+<div class="col-md-12">
+    <h2>Press inquiries:</h2>
+    <div class="container">
+
+        {% for contact in site.data.contacts %}
+        <div class="col-lg-offset-2 col-lg-4 col-md-offset-1 col-md-5">
+            <h4 class="list-group-item-heading">{{ contact.name }}</h4>
             <ul class="list-unstyled ">
-              <li>{{ contact.title }}</li>
-              <li>{{ contact.org }}</li>
-              <li><span class="fa fa-phone"></span>  <a href="tel:{{contact.phone}}">{{ contact.phone }}</li>
-              <li><span class="fa fa-envelope"></span> <a href="mailto:{{contact.email}}">{{ contact.email }}</a></li>
+                <li>{{ contact.title }}</li>
+                <li>{{ contact.org }}</li>
+                <li><span class="fa fa-phone"></span> <a href="tel:{{contact.phone}}">{{ contact.phone }}</li>
+              <li><span class="fa fa-envelope"></span> <a href="mailto:{{contact.email}}">{{ contact.email }}</a>
+                </li>
             </ul>
         </div>
-      {% endfor %}
-        </div>
+        {% endfor %}
 
     </div>
 </div>
