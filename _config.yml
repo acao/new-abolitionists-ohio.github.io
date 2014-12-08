@@ -13,18 +13,18 @@ media:
     email: jworthy@childrensdefense.org
 
 memorial:
-  headline: 'In 10 days, we lost two lives to police'
+  headline: 'In 10 days, we lost two innocent lives to police'
   lead: ''
 
 tanisha:
   name: 'Tanisha Anderson'
   years: '1977 - 2014'
   image: tanisha.jpg
-  story: ''
+  story: "Tanisha Anderson was killed"
 
 tamir:
   name: 'Tamir Rice'
-  years: '2001 - 2014'
+  years: '2002 - 2014'
   image: 'tamir.jpg'
   story: ''
 
@@ -60,7 +60,7 @@ collections:
 
 prose:
   rooturl: 'app'
-  siteurl: 'http://new-abolitionists-ohio.github.io/'
+  siteurl: 'http://cledemandsjustice.org'
   media: 'img'
   ignore:
     - index.md
