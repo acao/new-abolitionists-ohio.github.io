@@ -6,6 +6,8 @@
 name: CLEDemandsjustice.org
 description: '#CLEDemands Justice'
 
+gems:
+  - jekyll-sitemap
 
 media:
   contact:
