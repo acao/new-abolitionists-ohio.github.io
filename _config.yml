@@ -6,9 +6,6 @@
 name: CLEDemandsjustice.org
 description: '#CLEDemands Justice'
 
-gems:
-  - jekyll-sitemap
-
 media:
   contact:
     name: New Abolitionists Association
@@ -39,14 +36,14 @@ newsletter:
 exclude: ['img', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', 'node_modules/**/*']
 
-include: ['.htaccess']
+include: ['.htaccess', 'sitemap.xml']
 
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true
 show_drafts: true
 
 permalink: pretty
-paginate: 1
+paginate: 12
 paginate_path: 'page:num'
 
 # Markdown library
@@ -58,6 +55,9 @@ highlighter: false
 collections:
   demands:
     output: false
+
+# gems:
+#   - jekyll-sitemap
 
 
 prose:
