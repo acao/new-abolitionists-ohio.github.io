@@ -35,7 +35,7 @@ newsletter:
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', 'node_modules/**/*']
 
 include: ['.htaccess']
 
@@ -44,14 +44,14 @@ future: true
 show_drafts: true
 
 permalink: pretty
-paginate: 0
+paginate: 1
 paginate_path: 'page:num'
 
 # Markdown library
 markdown: redcarpet
 #   extensions: ['fenced_code_blocks', 'smart']
 
-pygments: false
+highlighter: false
 
 collections:
   demands:
