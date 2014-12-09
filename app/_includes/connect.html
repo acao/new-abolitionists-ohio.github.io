@@ -20,22 +20,3 @@
     </div>
 </div>
 </div>
-<div class="col-md-12">
-    <h2>Press inquiries:</h2>
-    <div class="container">
-
-        {% for contact in site.data.contacts %}
-        <div class="col-lg-offset-2 col-lg-4 col-md-offset-1 col-md-5">
-            <h4 class="list-group-item-heading">{{ contact.name }}</h4>
-            <ul class="list-unstyled ">
-                <li>{{ contact.title }}</li>
-                <li>{{ contact.org }}</li>
-                <li><span class="fa fa-phone"></span> <a href="tel:{{contact.phone}}">{{ contact.phone }}</li>
-              <li><span class="fa fa-envelope"></span> <a href="mailto:{{contact.email}}">{{ contact.email }}</a>
-                </li>
-            </ul>
-        </div>
-        {% endfor %}
-
-    </div>
-</div>
