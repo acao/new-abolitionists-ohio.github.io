@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      December 1st Press Release
-categories: ['Releases', 'Actions', 'Negotiations']
+categories: Releases
 date:       '2014-12-01'
 ---
 
