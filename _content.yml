@@ -1,0 +1,64 @@
+name: CLEDemandsjustice.org
+description: '#CLEDemands Justice'
+
+## Intro
+
+tagline: "Calling officials to the people's negotiating table"
+
+#####
+# Who
+# ###
+# This text is editable from the _includes/who.html file
+#####
+
+#####
+# Demands
+# ###
+# Each demand is editable in the _demands folder.
+#####
+
+demandstext:
+  headline: "Our Demands"
+  lead: "For generations our concerns and complaints have been consistently ignored. We hold Cleveland City Council and local leaders directly responsible for the daily violence and excessive force used against The People and we demand the following steps be immediately and fully implemented:"
+
+
+# Memorial Section (not finished)
+
+memorial:
+  headline: 'In 10 days, we lost two innocent lives to police'
+  lead: ''
+
+tanisha:
+  name: 'Tanisha Anderson'
+  years: '1977 - 2014'
+  image: tanisha.jpg
+  story: "Tanisha Anderson was killed"
+
+tamir:
+  name: 'Tamir Rice'
+  years: '2002 - 2014'
+  image: 'tamir.jpg'
+  story: ''
+
+# Connect
+# Let me know if you want to be able to change anything here.
+
+# Media Section
+# Contacts - editable in _data/contacts.yml (only ones with media: true are shown)
+# Releases - follow the example of relevant _posts/. Note category: 'releases' must be set to display.
+
+mediatext:
+  inquiries_headline: "Press Inquiries"
+  releases_headline: "News Releases"
+
+# 'Sign Up' Section
+
+newsletter:
+  headline: 'Sign up for Updates'
+  interest: "I'm interested in:"
+  submit: 'Get updates'
+
+# Footer
+
+footer:
+  copyright: "Copyright &copy; New Abolitionist Association - Ohio 2014"
