@@ -1,4 +1,5 @@
 # Note: blank lines may show if any contact info is left blank
+# To show in media contacts, media: true must be set.
 
 - name:  "Joe Worthy"
   title: "Ohio Director of Youth Leadership and Organizing"
