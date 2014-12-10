@@ -40,6 +40,8 @@ prose:
     - _config.yml
     - /app/_layouts
     - /app/_plugins
+  include:
+    - _config.content.yml
   metadata:
     _posts:
       - name: "layout"
