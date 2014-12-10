@@ -12,7 +12,7 @@ published: true
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="image-wrap-heading"><span class="">#CLEDemands</span> Justice</h1>
-                        <p class="image-wrap-text">Calling officials to the people's negotiating table</p>
+                        <p class="image-wrap-text">{{ site.tagline }}</p>
                         <a href="#who" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -46,8 +46,8 @@ published: true
         <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="image-wrap-heading">Our Demands:</h1>
-                        <p class="image-wrap-text">For generations our concerns and complaints have been consistently ignored. We hold Cleveland City Council and local leaders directly responsible for the daily violence and excessive force used against The People and we demand the following steps be immediately and fully implemented:</p>
+                        <h1 class="image-wrap-heading"> {{site.demandstext.headline}} </h1>
+                        <p class="image-wrap-text">{{site.demandstext.lead}}</p>
                         <a href="#demands-list" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -122,6 +122,6 @@ published: true
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; New Abolitionist Association - Ohio 2014</p>
+            <p>{{site.footer.copyright}}</p>
         </div>
     </footer>

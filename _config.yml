@@ -3,34 +3,6 @@
 # 2. config.build.yml
 # 3. config.yml
 
-name: CLEDemandsjustice.org
-description: '#CLEDemands Justice'
-
-media:
-  contact:
-    name: New Abolitionists Association
-    email: jworthy@childrensdefense.org
-
-memorial:
-  headline: 'In 10 days, we lost two innocent lives to police'
-  lead: ''
-
-tanisha:
-  name: 'Tanisha Anderson'
-  years: '1977 - 2014'
-  image: tanisha.jpg
-  story: "Tanisha Anderson was killed"
-
-tamir:
-  name: 'Tamir Rice'
-  years: '2002 - 2014'
-  image: 'tamir.jpg'
-  story: ''
-
-newsletter:
-  headline: 'Sign up for Updates'
-  interest: "I'm interested in:"
-  submit: 'Get updates'
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
@@ -58,7 +30,6 @@ collections:
 
 # gems:
 #   - jekyll-sitemap
-
 
 prose:
   rooturl: 'app'
