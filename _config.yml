@@ -44,6 +44,9 @@ prose:
     - /app/js
     - /app/_less
     - /app/css
+    - /app/CNAME
+    - /app/google3ddf1910d6053919.html
+    - /app/sitemap.xml
   metadata:
     _posts:
       - name: "layout"
