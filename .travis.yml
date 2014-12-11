@@ -13,7 +13,10 @@ before_script:
   - npm install -g bower
   - npm install
   - bower install -f
+  - git config --global user.email "richard.j.schulte@gmail.com"
+  - git config --global user.name "Richard Schulte"
   - grunt deploy --force
+
 script:
   - grunt deploy --force
   # - "bundle exec middleman build && bundle exec middleman s3_sync"
