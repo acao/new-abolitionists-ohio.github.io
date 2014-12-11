@@ -18,5 +18,5 @@ before_script:
   - grunt deploy --force
 
 script:
-  - grunt deploy --force
+  # - grunt deploy --force
   # - "bundle exec middleman build && bundle exec middleman s3_sync"
