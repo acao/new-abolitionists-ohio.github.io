@@ -42,6 +42,6 @@ Councilman Reed unfortunately had to leave early due to the necessity of attendi
 
 Official transcripts of this meeting will be made available to the public over the course of the next week. Community leaders and activists are waiting to see how these pledges will translate into concrete action by members of Council.
 
-Media Contact
-Jason Eugene
-j.boarde@vikes.csuohio.edu
+ Media Contact
+ Jason Eugene
+ j.boarde@vikes.csuohio.edu
