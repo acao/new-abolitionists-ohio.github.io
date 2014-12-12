@@ -28,8 +28,19 @@ collections:
   demands:
     output: false
 
+# pandoc:
+#   skip: false
+#   # impose: true
+#   output: /pandoc
+#   site_flags: '--toc'
+#   outputs:
+#     pdf:
+#     epub:
+#     docx:
+#     markdown:
+
 # gems:
-#   - jekyll-sitemap
+#   - jekyll-pandoc-multiple-formats
 
 prose:
   rooturl: 'app'

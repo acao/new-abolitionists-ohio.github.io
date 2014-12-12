@@ -6,9 +6,12 @@
 
         {% for contact in site.data.contacts %}
         {% if contact.media %}
-        <div class="col-md-4">
+        <div class="col-md-4 text-left contact-card">
             <div class="panel">
-                <h4 class="panel-heading">{{ contact.name }}</h4>
+              <div class="panel-heading">
+                  <h4 class="panel-title">{{ contact.name }}</h4>
+              </div>
+              <div class="panel-body">
                 <ul class="list-unstyled ">
                     <li>{{ contact.title }}</li>
                     <li>{{ contact.org }}</li>
@@ -16,6 +19,7 @@
               <li><span class="fa fa-envelope"></span> <a href="mailto:{{contact.email}}">{{ contact.email }}</a>
                     </li>
                 </ul>
+              </div>
             </div>
         </div>
         {% endif %}
@@ -26,9 +30,21 @@
     </div>
     <div class="row">
         {% for post in site.categories.releases %}
-        <div class="panel col-md-4 col-lg-3">
+        <div class="panel col-md-6 col-lg-4 text-left">
             <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
             <em>{{ post.date | date: "%b %-d, %Y"}}</em>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="row">
+      <h2>{{site.mediatext.mediahits_headline}}</h2>
+    </div>
+    <div class="row">
+        {% for hit in site.data.media %}
+        <div class="panel col-md-6 col-lg-4 media-hits text-left">
+            <h4><a href="{{ hit.url }}" target="_blank">{{ hit.title }}</a></h4>
+            <strong>{{hit.agency}}</strong>
+            <em>{{ hit.date | date: "%b %-d, %Y"}}</em>
         </div>
         {% endfor %}
     </div>

@@ -256,14 +256,16 @@ module.exports = function (grunt) {
             'fonts/**/*',
             'static/**/*',
             // Like Jekyll, exclude files & folders prefixed with an underscore.
-            '!**/_*{,/**}'
+            '!**/_*{,/**}',
+            '.tmp/pandoc/'
             // Explicitly add any files your site needs for distribution here.
             //'_bower_components/jquery/jquery.js',
             //'favicon.ico',
             //'apple-touch*.png'
           ],
           dest: '<%= yeoman.dist %>'
-        }]
+        }
+        ]
       },
       // Copy CSS into .tmp directory for Autoprefixer processing
       stageCss: {
