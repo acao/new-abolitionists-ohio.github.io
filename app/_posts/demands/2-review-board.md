@@ -2,6 +2,7 @@
 layout: default
 title: "2: A Democratically Elected Civilian Review Board"
 published: true
+category: demands
 type: ordinance
 ---
 

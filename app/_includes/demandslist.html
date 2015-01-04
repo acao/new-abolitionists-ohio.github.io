@@ -1,0 +1,27 @@
+<div class="col-lg-8 col-lg-offset-2">
+  <div class="icon-section-header text-center">
+    <span class="fa fa-gavel icon-section"></span>
+  </div>
+  <div class="demands">
+    <h2>To Be Passed As City Ordinances</h2>
+    {% for demand in site.categories.demands %}
+      {% if demand.type == 'ordinance' %}
+        <h3 class="subsection-header">{{ demand.title }}</h3>
+        {{ demand.content }}
+      {% endif %}
+    {% endfor %}
+    <h2>To Be Passed As City Resolutions</h2>
+    {% for demand in site.demands %}
+      {% if demand.type == 'resolution' %}
+        <h3 class="subsection-header">{{ demand.title }}</h3>
+        {{ demand.content }}
+      {% endif %}
+    {% endfor %}
+     <h3>FOR IMMEDIATE ACTION:</h3>
+    {% for demand in site.demands %}
+      {% if demand.type == 'immediate' %}
+        {{ demand.content }}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

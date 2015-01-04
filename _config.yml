@@ -80,13 +80,24 @@ prose:
               value: "negotiations"
             - name: "Trainings"
               value: "trainings"
-    _posts/static:
+    _posts/demands:
       - name: "layout"
         field:
           element: "hidden"
           value: "page"
-      - name: "permalink"
+      - name: "category"
         field:
-          element: "text"
-          label: "Permalink"
-          value: ""
+          element: "hidden"
+          value: "demands"
+      - name: "type"
+        field:
+          element: "multiselect"
+          label: "Type of Demand"
+          placeholder: "Choose Type"
+          options:
+            - name: "Council Resolution"
+              value: "resolution"
+            - name: "Council Ordinance"
+              value: "ordinance"
+            - name: "For Immediate Implementation"
+              value: "immediate"

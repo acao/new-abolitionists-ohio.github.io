@@ -2,6 +2,7 @@
 layout: default
 title: "6: Moratorium on Hires Until After Retraining"
 published: true
+category: demands
 type: resolution
 ---
 

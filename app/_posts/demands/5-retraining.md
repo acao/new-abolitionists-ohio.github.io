@@ -2,6 +2,7 @@
 layout: default
 title: "5: Complete Retraining"
 published: true
+category: demands
 type: resolution
 ---
 

@@ -2,6 +2,7 @@
 layout: default
 title: "4: Immediate Indictments"
 published: true
+category: demands
 type: resolution
 ---
 

@@ -2,6 +2,7 @@
 layout: default
 title: "3: Disciplinary Independent Review Board"
 published: true
+category: demands
 type: ordinance
 ---
 

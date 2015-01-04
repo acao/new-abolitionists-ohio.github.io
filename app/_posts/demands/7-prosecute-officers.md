@@ -2,6 +2,7 @@
 layout: default
 title: "7: Offending Officers are Fully Investigated"
 published: true
+category: demands
 type: resolution
 ---
 

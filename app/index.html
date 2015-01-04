@@ -58,39 +58,7 @@ published: true
     </section>
     <section id="demands-list" class="content-section text-left">
       <div class="container">
-        <div class="col-lg-8 col-lg-offset-2">
-        <div class="icon-section-header text-center">
-          <span class="fa fa-gavel icon-section"></span>
-        </div>
-          <div class="demands">
-          <h2>To Be Passed As City Ordinances</h2>
-          {% for demand in site.demands %}
-            {% if demand.type == 'ordinance' %}
-              <h3 class="subsection-header">{{ demand.title }}</h3>
-              {{ demand.content }}
-            {% endif %}
-          {% endfor %}
-          <h2>To Be Passed As City Resolutions</h2>
-          {% for demand in site.demands %}
-            {% if demand.type == 'resolution' %}
-              <h3 class="subsection-header">{{ demand.title }}</h3>
-              {{ demand.content }}
-            {% endif %}
-          {% endfor %}
-           <h3>FOR IMMEDIATE ACTION:</h3>
-          {% for demand in site.demands %}
-            {% if demand.type == 'immediate' %}
-              {{ demand.content }}
-            {% endif %}
-          {% endfor %}
-
-        </div>
-        </div>
-<!--         <div class="text-center col-lg-12">
-          <div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-post" data-href="https://www.facebook.com/video.php?v=730762887006939"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/video.php?v=730762887006939">Post</a> by <a href="https://www.facebook.com/NewAbolitionistAssociationOhio">New Abolitionist Association (Ohio)</a>.</div></div>
-
-        </div> -->
+      {% include demandslist.html %}
       </div>
     </section>
 

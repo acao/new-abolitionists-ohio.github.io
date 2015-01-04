@@ -2,6 +2,7 @@
 layout: default
 title: "IMMEDIATE ACTION:"
 published: true
+category: demands
 type: immediate
 ---
 
