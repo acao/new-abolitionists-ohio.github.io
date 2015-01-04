@@ -64,22 +64,6 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Actions"
-              value: "actions"
-            - name: "Trainings"
-              value: "trainings"
-            - name: "Demands"
-              value: "demands"
-            - name: "Negotiations"
-              value: "negotiations"
-            - name: "Trainings"
-              value: "trainings"
     _posts/demands:
       - name: "layout"
         field:
