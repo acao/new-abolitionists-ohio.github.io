@@ -1,7 +1,7 @@
 ---
 category: demands
 layout: page
-published: false
+published: true
 title: 10. Example Demand
 type: ordinance
 ---
