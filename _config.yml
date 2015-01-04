@@ -148,6 +148,11 @@ prose:
           element: "text"
           label: "Date of Hit"
           placeholder: "YYYY-MM-DD"
+      - name: "hit"
+        field:
+          element: "checkbox"
+          label: "Is this a #CLEDemands media hit or not?"
+          value: TRUE
       - name: "layout"
         field:
           element: "hidden"
