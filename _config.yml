@@ -6,7 +6,7 @@
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', 'node_modules/**/*']
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', 'node_modules/**/*', '.gitkeep']
 
 include: ['.htaccess', 'sitemap.xml']
 
@@ -54,6 +54,7 @@ prose:
     - /app/CNAME
     - /app/google3ddf1910d6053919.html
     - /app/sitemap.xml
+    - /app/_posts/*.gitkeep
   metadata:
     app/_posts:
       - name: "title"
@@ -91,3 +92,16 @@ prose:
               value: "ordinance"
             - name: "For Immediate Implementation"
               value: "immediate"
+    app/_posts/pressreleases:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "pressreleases"
