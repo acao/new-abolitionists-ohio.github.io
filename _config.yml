@@ -115,11 +115,30 @@ prose:
         field:
           element: "text"
           label: "Name"
-      - name: "date"
+      - name: "proftitle"
         field:
           element: "text"
-          label: "Date of Release"
-          placeholder: "YYYY-MM-DD"
+          label: "Professional Title"
+      - name: "org"
+        field:
+          element: "text"
+          label: "Organisation"
+          placeholder: "New Abolitionists Association - Ohio"
+      - name: "phone"
+        field:
+          element: "text"
+          label: "Phone #"
+          placeholder: "(216) 999-9999"
+      - name: "email"
+        field:
+          element: "text"
+          label: "Email"
+          placeholder: "my@email.com"
+      - name: "media"
+        field:
+          element: "checkbox"
+          label: "Is this person listed as a media contact or not?"
+          value: TRUE
       - name: "layout"
         field:
           element: "hidden"
