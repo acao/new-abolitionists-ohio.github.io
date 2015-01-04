@@ -66,6 +66,11 @@ prose:
           element: "hidden"
           value: "post"
     app/_posts/demands:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+          placeholder: "We demand..."
       - name: "layout"
         field:
           element: "hidden"
