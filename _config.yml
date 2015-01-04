@@ -132,7 +132,7 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "Article Title"
+          placeholder: "Article Title"
       - name: "url"
         field:
           element: "text"
