@@ -65,24 +65,24 @@ prose:
         field:
           element: "hidden"
           value: "post"
-    # _posts/demands:
-    #   - name: "layout"
-    #     field:
-    #       element: "hidden"
-    #       value: "page"
-    #   - name: "category"
-    #     field:
-    #       element: "hidden"
-    #       value: "demands"
-    #   - name: "type"
-    #     field:
-    #       element: "multiselect"
-    #       label: "Type of Demand"
-    #       placeholder: "Choose Type"
-    #       options:
-    #         - name: "Council Resolution"
-    #           value: "resolution"
-    #         - name: "Council Ordinance"
-    #           value: "ordinance"
-    #         - name: "For Immediate Implementation"
-    #           value: "immediate"
+    app/_posts/demands:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "demands"
+      - name: "type"
+        field:
+          element: "multiselect"
+          label: "Type of Demand"
+          placeholder: "Choose Type"
+          options:
+            - name: "Council Resolution"
+              value: "resolution"
+            - name: "Council Ordinance"
+              value: "ordinance"
+            - name: "For Immediate Implementation"
+              value: "immediate"
