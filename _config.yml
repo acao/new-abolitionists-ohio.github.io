@@ -59,7 +59,7 @@ prose:
       - name: "title"
         field:
           element: "text"
-          type: "text"
+          label: "title"
           placeholder: "We demand..."
       - name: "layout"
         field:
