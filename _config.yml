@@ -39,7 +39,7 @@ highlighter: false
 #   - jekyll-pandoc-multiple-formats
 
 prose:
-  rooturl: 'app'
+  rooturl: 'app/_posts'
   siteurl: 'http://cledemandsjustice.org'
   media: 'img'
   ignore:
@@ -119,6 +119,7 @@ prose:
         field:
           element: "text"
           label: "Professional Title"
+          placeholder: "Big cheese"
       - name: "org"
         field:
           element: "text"
