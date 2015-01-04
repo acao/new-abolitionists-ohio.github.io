@@ -60,7 +60,7 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "title"
+          label: "Title"
           placeholder: "We demand..."
       - name: "layout"
         field:
@@ -70,7 +70,7 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "title"
+          label: "Title"
           placeholder: "We demand..."
       - name: "layout"
         field:
@@ -96,12 +96,63 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "title"
+          label: "Title"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date of Release"
+          placeholder: "YYYY-MM-DD"
       - name: "layout"
         field:
           element: "hidden"
-          value: "post"
+          value: "release"
       - name: "category"
         field:
           element: "hidden"
           value: "pressreleases"
+    app/_posts/contacts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Name"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date of Release"
+          placeholder: "YYYY-MM-DD"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "contacts"
+    app/_posts/media:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Article Title"
+      - name: "url"
+        field:
+          element: "text"
+          label: "URL of article"
+          placeholder: "http://www.washingtonpost.com/article/01/02/98765/stuff"
+      - name: "agency"
+        field:
+          element: "text"
+          label: "News Agency - keep consistent - spelling, capitalization, etc"
+          placeholder: "CommonDreams.org"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date of Hit"
+          placeholder: "YYYY-MM-DD"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "media"
