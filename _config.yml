@@ -24,10 +24,6 @@ markdown: redcarpet
 
 highlighter: false
 
-collections:
-  demands:
-    output: false
-
 # pandoc:
 #   skip: false
 #   # impose: true
@@ -60,6 +56,10 @@ prose:
     - /app/sitemap.xml
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          placeholder: "We demand..."
       - name: "layout"
         field:
           element: "hidden"
