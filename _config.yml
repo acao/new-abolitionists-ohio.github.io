@@ -81,7 +81,7 @@ prose:
           value: "demands"
       - name: "type"
         field:
-          element: "multiselect"
+          element: "select"
           label: "Type of Demand"
           placeholder: "Choose Type"
           options:
